@@ -1,0 +1,13 @@
+﻿@model SMSApp.Models.Contact
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<h2>Message Failed to Send</h2>
+<p>The number you inputed does not match any of the existing contacts in your phonebook</p>
+<a href="~/Views/Text/Error.cshtml">~/Views/Text/Error.cshtml</a>
+
+<div>
+    @Html.ActionLink("Return to Phonebook", "Details", "Contact")
+</div>

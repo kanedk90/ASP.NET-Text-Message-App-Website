@@ -1,0 +1,12 @@
+﻿@model SMSApp.Models.Contact
+
+@{
+    ViewBag.Title = "Confirmation";
+}
+
+<h2>Confirmation</h2>
+
+<p>Your message has been successfully sent to;</p>
+<p><b>Name:</b> @Model.Forename @Model.Surname</p>
+<p><b>Number:</b> @Model.Prefix @Model.Number</p>
+
